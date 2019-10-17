@@ -1,202 +1,198 @@
-# five.js
+# four.js
 
 A library to overcomplicate `5`.
-
-[![Build Status](https://travis-ci.org/jackdcrawford/five.svg?branch=master)](https://travis-ci.org/jackdcrawford/five)
-[![Code Climate](https://codeclimate.com/github/jackdcrawford/five.png)](https://codeclimate.com/github/jackdcrawford/five)
-[![Test Coverage](https://codeclimate.com/github/jackdcrawford/five/coverage.png)](https://codeclimate.com/github/jackdcrawford/five)
 
 <img src="https://cldup.com/kwFz0lhg1u.png" width="300" alt="logo" />
 
 ### Usage
 ##### Require the module
 ```javascript
-var five = require('five');
+var four = require('four');
 ```
 
 ##### In the browser
 ```html
-<script type="text/javascript" src="./five.js"></script>
+<script type="text/javascript" src="./four.js"></script>
 ```
 
 ##### Basic 5
 ```javascript
-five(); // 5
+four(); // 5
 ```
 
-## The Law of Fives
+## The Law of Fours
 ```javascript
-five.law(); // The Law of Fives states simply that: All things happen in fives, or are divisible by or are multiples of five, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.
+four.law(); // The Law of Fives states simply that: All things happen in fours, or are divisible by or are multiples of four, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.
 ```
 
 ##### Addition
 ```javascript
-five() + five(); // 10
+four() + four(); // 8
 ```
 
 ##### Multiplication
 ```javascript
-five() * five(); // 25
+four() * four(); // 16
 ```
 
 ##### Division
 ```javascript
-five() / five(); // 1
+four() / four(); // 1
 ```
 ##### Combinatorics
 ```javascript
-five.factorial(); // 120
+four.factorial(); // ??
 ```
 
 ##### Different sorts of 5
 ```javascript
-five.upHigh() // ⁵
-five.downLow() // ₅
-five.tooSlow() // 5, with a ~500 millisecond delay
-five.roman() // V
-five.morseCode() // .....
-five.negative() // -5
-five.loud() // FIVE
-five.loud('piglatin') // IVEFAY
-five.smooth() // S
-five.bucks() // $5.00
+four.upHigh() // ⁵
+four.downLow() // ₅
+four.tooSlow() // 5, with a ~500 millisecond delay
+four.roman() // V
+four.morseCode() // .....
+four.negative() // -5
+four.loud() // FIVE
+four.loud('piglatin') // IVEFAY
+four.smooth() // S
+four.bucks() // $5.00
 ```
 
 ##### Cryptography
 ```javascript
-five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
-five.golden() // 1.618033988749895
+four.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
+four.golden() // 1.618033988749895
 ```
 
 ##### 5 goes multilingual
 ```javascript
-five.arabic() // خمسة
-five.azerbaijani() // beş
-five.basque() // bost
-five.belarusian() // пяць
-five.bosnian() // pet
-five.bulgarian() // пет
-five.catalan() // cinc
-five.chinese() // 五
-five.chinese('pinyin') // wǔ
-five.chinese('financial') // 伍
-five.choctaw() // tahlapi
-five.croatian() // pet
-five.czech() // pět
-five.dothraki() // mek
-five.dovah() // hen
-five.dutch() // vijf
-five.elvish() // lempë
-five.elvish('quenya') // lempë
-five.elvish('sindarin') // leben
-five.english() // five
-five.esperanto() // kvin
-five.estonian() // viis
-five.finnish() // viisi
-five.french() // cinq
-five.german() // fünf
-five.greek() // πέντε
-five.hebrew() // חמש
-five.hindi() // पांच
-five.hungarian() // öt
-five.icelandic() // fimm
-five.indonesian() // lima
-five.irish() // cúig
-five.italian() // cinque
-five.japanese() // 五
-five.kannada() // ಐದು
-five.klingon() // vagh
-five.korean() // 오
-five.latin() // quinque
-five.latvian() // pieci
-five.lithuanian() // penki
-five.maltese() // ħamsa
-five.mongolian() // таван
-five.nepali() // पाँच
-five.norwegian() // fem
-five.persian() // پنج
-five.piglatin() // ivefay
-five.polish() // pięć
-five.portuguese() // cinco
-five.punjabi() // ਪੰਜ
-five.romanian() // cinci
-five.russian() // пять
-five.serbian() // pet
-five.sinhala() // පහ
-five.slovakian() // päť
-five.slovenian() // pet
-five.spanish() // cinco
-five.swedish() // fem
-five.tamil() // ஐந்து
-five.telugu() // ఐదు
-five.thai() // ห้า
-five.turkish() // beş
-five.ukrainian() // п’ять
-five.welsh() // pump
+four.arabic() // خمسة
+four.azerbaijani() // beş
+four.basque() // bost
+four.belarusian() // пяць
+four.bosnian() // pet
+four.bulgarian() // пет
+four.catalan() // cinc
+four.chinese() // 五
+four.chinese('pinyin') // wǔ
+four.chinese('financial') // 伍
+four.choctaw() // tahlapi
+four.croatian() // pet
+four.czech() // pět
+four.dothraki() // mek
+four.dovah() // hen
+four.dutch() // vijf
+four.elvish() // lempë
+four.elvish('quenya') // lempë
+four.elvish('sindarin') // leben
+four.english() // four
+four.esperanto() // kvin
+four.estonian() // viis
+four.finnish() // viisi
+four.french() // cinq
+four.german() // fünf
+four.greek() // πέντε
+four.hebrew() // חמש
+four.hindi() // पांच
+four.hungarian() // öt
+four.icelandic() // fimm
+four.indonesian() // lima
+four.irish() // cúig
+four.italian() // cinque
+four.japanese() // 五
+four.kannada() // ಐದು
+four.klingon() // vagh
+four.korean() // 오
+four.latin() // quinque
+four.latvian() // pieci
+four.lithuanian() // penki
+four.maltese() // ħamsa
+four.mongolian() // таван
+four.nepali() // पाँच
+four.norwegian() // fem
+four.persian() // پنج
+four.piglatin() // ivefay
+four.polish() // pięć
+four.portuguese() // cinco
+four.punjabi() // ਪੰਜ
+four.romanian() // cinci
+four.russian() // пять
+four.serbian() // pet
+four.sinhala() // පහ
+four.slovakian() // päť
+four.slovenian() // pet
+four.spanish() // cinco
+four.swedish() // fem
+four.tamil() // ஐந்து
+four.telugu() // ఐదు
+four.thai() // ห้า
+four.turkish() // beş
+four.ukrainian() // п’ять
+four.welsh() // pump
 ```
 
 ##### Different radices
 ```javascript
-five.binary(); // 101
-five.octal(); // 5
-five.hex(); // 5
-five.base(4); // 11
-five.base(3); // 12
+four.binary(); // 101
+four.octal(); // 5
+four.hex(); // 5
+four.base(4); // 11
+four.base(3); // 12
 ```
 
 ##### Assertion
 ```javascript
-five.isFive(10); // false
+four.isFive(10); // false
 ```
 
 ##### Filter, Map and Reduce
 ```javascript
-five.filter([5, true, 5]); // [5, 5]
-five.map([1, 2, 3]); // [5, 5, 5]
-five.reduce([1, 2, 3]); // 5
+four.filter([5, true, 5]); // [5, 5]
+four.map([1, 2, 3]); // [5, 5, 5]
+four.reduce([1, 2, 3]); // 5
 ```
 
 ##### Novelty
 ```javascript
-five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
-five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
-five.furious(); // ['Tigress','Viper','Crane','Monkey','Mantis']
-five.luniz(); // ‘I Got 5 on It’
-five.r(); // '£5'
-five.funk(); // '5 bad boys with the power to rock you'
-five.high(); // 'o/'
-five.members(); //['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love']
-five.discography(); //['5ive', 'Invincible', 'Kingsize']
-five.singles(); //['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']
-five.famous(); // ['Julian', 'Dick', 'George', 'Anne', 'Timmy']
-five.fiveFiveFive(); // 'Interstella 5555: The 5tory of the 5ecret 5tar 5ystem'
+four.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
+four.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
+four.furious(); // ['Tigress','Viper','Crane','Monkey','Mantis']
+four.luniz(); // ‘I Got 5 on It’
+four.r(); // '£5'
+four.funk(); // '5 bad boys with the power to rock you'
+four.high(); // 'o/'
+four.members(); //['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love']
+four.discography(); //['5ive', 'Invincible', 'Kingsize']
+four.singles(); //['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']
+four.famous(); // ['Julian', 'Dick', 'George', 'Anne', 'Timmy']
+four.fourFiveFive(); // 'Interstella 5555: The 5tory of the 5ecret 5tar 5ystem'
 ```
 
 ##### Rotation
 ```javascript
-five.rot("five.js"); //"knaj.ox"
+four.rot("four.js"); //"knaj.ox"
 ```
 
 ##### Asynchronous Usage
 ```javascript
-five.async(function(err, five) {
-	// five === 5
+four.async(function(err, four) {
+	// four === 5
 });
 ```
 
 ##### Unicode
 ```javascript
-five.oclock(); // '🕔'
+four.oclock(); // '🕔'
 
-five.oclockSomewhere(); // '🍺'
+four.oclockSomewhere(); // '🍺'
 
-five.guys(); // '🍔'
+four.guys(); // '🍔'
 ```
 
 ##### Money
 ```javascript
-five.euro(); // '5€'
-five.dollar(); // '$5'
+four.euro(); // '5€'
+four.dollar(); // '$5'
 ```
 
 
@@ -204,7 +200,7 @@ five.dollar(); // '$5'
 ##### The code
 All of the logic & heavy lifting is achieved in one self-contained file:
 ```
-./five.js
+./four.js
 ```
 
 ##### Tests
