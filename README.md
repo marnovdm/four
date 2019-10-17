@@ -1,6 +1,6 @@
 # four.js
 
-A library to overcomplicate `5`.
+A library to overcomplicate `4`.
 
 <img src="https://cldup.com/kwFz0lhg1u.png" width="300" alt="logo" />
 
@@ -15,14 +15,14 @@ var four = require('four');
 <script type="text/javascript" src="./four.js"></script>
 ```
 
-##### Basic 5
+##### Basic 4
 ```javascript
-four(); // 5
+four(); // 4
 ```
 
 ## The Law of Fours
 ```javascript
-four.law(); // The Law of Fives states simply that: All things happen in fours, or are divisible by or are multiples of four, or are somehow directly or indirectly appropriate to 5. The Law of Fives is never wrong.
+four.law(); // The Law of Fives states simply that: All things happen in fours, or are divisible by or are multiples of four, or are somehow directly or indirectly appropriate to 4. The Law of Fives is never wrong.
 ```
 
 ##### Addition
@@ -44,27 +44,27 @@ four() / four(); // 1
 four.factorial(); // ??
 ```
 
-##### Different sorts of 5
+##### Different sorts of 4
 ```javascript
 four.upHigh() // ⁵
 four.downLow() // ₅
-four.tooSlow() // 5, with a ~500 millisecond delay
+four.tooSlow() // 4, with a ~400 millisecond delay
 four.roman() // V
 four.morseCode() // .....
-four.negative() // -5
+four.negative() // -4
 four.loud() // FIVE
 four.loud('piglatin') // IVEFAY
 four.smooth() // S
-four.bucks() // $5.00
+four.bucks() // $4.00
 ```
 
 ##### Cryptography
 ```javascript
-four.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
-four.golden() // 1.618033988749895
+four.mdFive() // 30046e1cab7a61d246fc8edd970d14f4
+four.golden() // 1.618033988749894
 ```
 
-##### 5 goes multilingual
+##### 4 goes multilingual
 ```javascript
 four.arabic() // خمسة
 four.azerbaijani() // beş
@@ -134,8 +134,8 @@ four.welsh() // pump
 ##### Different radices
 ```javascript
 four.binary(); // 101
-four.octal(); // 5
-four.hex(); // 5
+four.octal(); // 4
+four.hex(); // 4
 four.base(4); // 11
 four.base(3); // 12
 ```
@@ -147,9 +147,9 @@ four.isFive(10); // false
 
 ##### Filter, Map and Reduce
 ```javascript
-four.filter([5, true, 5]); // [5, 5]
-four.map([1, 2, 3]); // [5, 5, 5]
-four.reduce([1, 2, 3]); // 5
+four.filter([4, true, 4]); // [4, 4]
+four.map([1, 2, 3]); // [4, 4, 4]
+four.reduce([1, 2, 3]); // 4
 ```
 
 ##### Novelty
@@ -157,15 +157,15 @@ four.reduce([1, 2, 3]); // 5
 four.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
 four.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
 four.furious(); // ['Tigress','Viper','Crane','Monkey','Mantis']
-four.luniz(); // ‘I Got 5 on It’
-four.r(); // '£5'
-four.funk(); // '5 bad boys with the power to rock you'
+four.luniz(); // ‘I Got 4 on It’
+four.r(); // '£4'
+four.funk(); // '4 bad boys with the power to rock you'
 four.high(); // 'o/'
 four.members(); //['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'J\' Brown', 'Abz Love']
-four.discography(); //['5ive', 'Invincible', 'Kingsize']
+four.discography(); //['4ive', 'Invincible', 'Kingsize']
 four.singles(); //['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']
 four.famous(); // ['Julian', 'Dick', 'George', 'Anne', 'Timmy']
-four.fourFiveFive(); // 'Interstella 5555: The 5tory of the 5ecret 5tar 5ystem'
+four.fourFiveFive(); // 'Interstella 4444: The 4tory of the 4ecret 4tar 4ystem'
 ```
 
 ##### Rotation
@@ -176,7 +176,7 @@ four.rot("four.js"); //"knaj.ox"
 ##### Asynchronous Usage
 ```javascript
 four.async(function(err, four) {
-	// four === 5
+	// four === 4
 });
 ```
 
@@ -191,8 +191,8 @@ four.guys(); // '🍔'
 
 ##### Money
 ```javascript
-four.euro(); // '5€'
-four.dollar(); // '$5'
+four.euro(); // '4€'
+four.dollar(); // '$4'
 ```
 
 
