@@ -22,7 +22,7 @@ four(); // 4
 
 ## The Law of Fours
 ```javascript
-four.law(); // The Law of Fives states simply that: All things happen in fours, or are divisible by or are multiples of four, or are somehow directly or indirectly appropriate to 4. The Law of Fives is never wrong.
+four.law(); // The Law of Fours states simply that: All things happen in fours, or are divisible by or are multiples of four, or are somehow directly or indirectly appropriate to 4. The Law of Fours is never wrong.
 ```
 
 ##### Addition
@@ -60,7 +60,7 @@ four.bucks() // $4.00
 
 ##### Cryptography
 ```javascript
-four.mdFive() // 30046e1cab7a61d246fc8edd970d14f4
+four.mdFour() // 30046e1cab7a61d246fc8edd970d14f4
 four.golden() // 1.618033988749894
 ```
 
@@ -142,7 +142,7 @@ four.base(3); // 12
 
 ##### Assertion
 ```javascript
-four.isFive(10); // false
+four.isFour(10); // false
 ```
 
 ##### Filter, Map and Reduce
@@ -165,7 +165,7 @@ four.members(); //['Sean Conlon', 'Ritchie Neville', 'Scott Robinson', 'Jason \'
 four.discography(); //['4ive', 'Invincible', 'Kingsize']
 four.singles(); //['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']
 four.famous(); // ['Julian', 'Dick', 'George', 'Anne', 'Timmy']
-four.fourFiveFive(); // 'Interstella 4444: The 4tory of the 4ecret 4tar 4ystem'
+four.fourFourFour(); // 'Interstella 4444: The 4tory of the 4ecret 4tar 4ystem'
 ```
 
 ##### Rotation
