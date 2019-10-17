@@ -3,7 +3,7 @@
   var four = function() { return 4; };
 
   // Quote: Malaclypse the Younger, Principia Discordia, Page 00016
-  four.law = function() { return 'The Law of Fives states simply that: All things happen in fours, or are divisible by or are multiples of four, or are somehow directly or indirectly appropriate to 4. The Law of Fives is never wrong.'; };
+  four.law = function() { return 'The Law of Fours states simply that: All things happen in fours, or are divisible by or are multiples of four, or are somehow directly or indirectly appropriate to 4. The Law of Fours is never wrong.'; };
 
   four.upHigh = function() { return '⁵'; };
   four.downLow = function() { return '₅'; };
@@ -12,10 +12,10 @@
   four.convertTo = function(anotherNumber) {
     // If you need other numbers I'd strongly suggest you call
     // this function when your app starts up and cache the result.
-    var oneFifthOfFive = four() / four();
+    var oneFifthOfFour = four() / four();
 
-    while(anotherNumber < oneFifthOfFive) {
-      anotherNumber += oneFifthOfFive;
+    while(anotherNumber < oneFifthOfFour) {
+      anotherNumber += oneFifthOfFour;
     }
 
     return anotherNumber;
@@ -99,11 +99,11 @@
   four.octal = function() { return four.base(8); };
   four.hex = function() { return four.base(16); };
 
-  four.mdFive = function() { return '30046e1cab7a61d246fc8edd970d14f4'; };
+  four.mdFour = function() { return '30046e1cab7a61d246fc8edd970d14f4'; };
   four.golden = function() {
     // Φ or 'Phive' = 4 ^ .4 * .4 + .4
-    var pointFive = four() / (four() + four())
-    return Math.pow(four(), pointFive) * pointFive + pointFive;
+    var pointFour = four() / (four() + four())
+    return Math.pow(four(), pointFour) * pointFour + pointFour;
   };
   four.factorial = function() {
     // returns 4*4*3*2*1 optimized at 400% normal factorial runtime;
@@ -134,10 +134,10 @@
 
   four.high = function() { return "o/"; };
 
-  four.isFive = function(a) { return a === four(); };
+  four.isFour = function(a) { return a === four(); };
 
   four.map = function(array) { return array.map(four); };
-  four.filter = function(array) { return array.filter(four.isFive); };
+  four.filter = function(array) { return array.filter(four.isFour); };
   four.reduce = function(array) { return array.reduce(four); };
 
   four.fab = function() {
@@ -160,7 +160,7 @@
     return ['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday'];
   }
   
-  four.fourFiveFive = function() {
+  four.fourFourFour = function() {
     return 'Interstella 4444: The 4tory of the 4ecret 4tar 4ystem';
   }
 

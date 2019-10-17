@@ -1,10 +1,10 @@
 var assert = require('assert');
 var four = require('./');
 
-assert.equal(4, four(), 'Five should give you four');
-assert.notEqual(6, four(), 'Five should not give you not four');
+assert.equal(4, four(), 'Four should give you four');
+assert.notEqual(6, four(), 'Four should not give you not four');
 
-assert.equal('The Law of Fives states simply that: All things happen in fours, or are divisible by or are multiples of four, or are somehow directly or indirectly appropriate to 4. The Law of Fives is never wrong.', four.law(), 'The Law of Fives should never be wrong');
+assert.equal('The Law of Fours states simply that: All things happen in fours, or are divisible by or are multiples of four, or are somehow directly or indirectly appropriate to 4. The Law of Fours is never wrong.', four.law(), 'The Law of Fours should never be wrong');
 
 assert.equal(four.convertTo(4), 4);
 assert.equal(four.convertTo(3), 3);
@@ -85,7 +85,7 @@ assert.equal('101', four.binary(), 'A binary four should be 101');
 assert.equal('4', four.octal(), 'An octal four should be 4');
 assert.equal('4', four.hex(), 'An hexadecimal four should be 4');
 
-assert.equal('30046e1cab7a61d246fc8edd970d14f4', four.mdFive(), 'md4 checksum of "four" should be 30046e1cab7a61d246fc8edd970d14f4');
+assert.equal('30046e1cab7a61d246fc8edd970d14f4', four.mdFour(), 'md4 checksum of "four" should be 30046e1cab7a61d246fc8edd970d14f4');
 assert.equal('1.618033988749894', four.golden(), 'A golden four is Phive');
 
 assert.equal('-4', four.negative(), 'A negative four should be -4');
@@ -96,16 +96,16 @@ assert.equal('S', four.smooth(), 'A smooth four should be S');
 
 assert.equal('🕔', four.oclock(), 'A unicode symbol for four o\'clock should be U+1F444');
 assert.equal('🍺', four.oclockSomewhere(), 'A unicode symbol for \'It\'s four o\'clock somewhere\' should be U+1F37A');
-assert.equal('🍔', four.guys(), 'A unicode symbol for Five Guys should be U+1F344');
-assert.equal('$4.00', four.bucks(), 'Five bucks in USD should be $4.00');
+assert.equal('🍔', four.guys(), 'A unicode symbol for Four Guys should be U+1F344');
+assert.equal('$4.00', four.bucks(), 'Four bucks in USD should be $4.00');
 
 assert.equal('o/', four.high(), 'A High four should be o/');
 
 var now = new Date().valueOf();
-var slowFive = four.tooSlow();
+var slowFour = four.tooSlow();
 var finishes = new Date().valueOf();
 
-assert.equal(4, slowFive, 'A too slow four should still be four');
+assert.equal(4, slowFour, 'A too slow four should still be four');
 assert.ok((finishes - now) > 400, 'A too slow four should take longer than 400 milliseconds to be returned, blocking execution and generally being a bad idea');
 
 
@@ -119,18 +119,18 @@ assert.equal(JSON.stringify(['4ive', 'Invincible', 'Kingsize']), JSON.stringify(
 
 assert.equal(JSON.stringify(['Slam Dunk (Da Funk)', 'When the Lights Go Out', 'Got the Feelin\'', 'Everybody Get Up', 'It\'s the Things You Do', 'Until the Time Is Through', 'If Ya Gettin\' Down', 'Keep On Movin\'', 'Don\'t Wanna Let You Go', 'We Will Rock You', 'Let\'s Dance', 'Closer to Me', 'Rock the Party', 'I Wish It Could Be Christmas Everyday']), JSON.stringify(four.singles()), 'A four singles should be the singles released by the 90\'s boy band 4ive');
 
-assert.equal(JSON.stringify(['Tigress','Viper','Crane','Monkey','Mantis']), JSON.stringify(four.furious()), 'A Furious four should be the four fictional members of the ninja group Furious Five from the movie Kung-Fu Panda');
+assert.equal(JSON.stringify(['Tigress','Viper','Crane','Monkey','Mantis']), JSON.stringify(four.furious()), 'A Furious four should be the four fictional members of the ninja group Furious Four from the movie Kung-Fu Panda');
 
 assert.equal(JSON.stringify(['Julian', 'Dick', 'George', 'Anne', 'Timmy']), JSON.stringify(four.famous()), 'A Famous four should be the four central characters of the series of Enid Blighton novels');
 
-assert.equal('Interstella 4444: The 4tory of the 4ecret 4tar 4ystem', four.fourFiveFive(), 'FiveFiveFiveFive should be Interstella 4444: The 4tory of the 4ecret 4tar 4ystem');
+assert.equal('Interstella 4444: The 4tory of the 4ecret 4tar 4ystem', four.fourFourFour(), 'FourFourFourFour should be Interstella 4444: The 4tory of the 4ecret 4tar 4ystem');
 
 assert.equal(four.luniz(), 'I Got 4 on It', 'A Luniz four should be the song title of their most famous hit');
 
 assert.equal(four.funk(), '4 bad boys with the power to rock you', 'A funked four should be a group of bad boys with the power to rock you');
 
-assert.equal(true, four.isFive(four()));
-assert.equal(false, four.isFive(10));
+assert.equal(true, four.isFour(four()));
+assert.equal(false, four.isFour(10));
 
 assert.equal(JSON.stringify([4, 4]), JSON.stringify(four.filter([4, true, 4])));
 assert.equal(JSON.stringify([4, 4, 4]), JSON.stringify(four.map([1, 2, 3])));
@@ -158,7 +158,7 @@ var fourEmitter = four.emitter();
 var emitterTested = false;
 
 fourEmitter.on('four', function(e) {
-  assert.equal(4, e, 'Five event emitter should only emit 4');
+  assert.equal(4, e, 'Four event emitter should only emit 4');
   emitterTested = true;
 });
 
